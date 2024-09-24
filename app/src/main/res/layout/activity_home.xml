@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img4"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/my_primary"
+        android:alpha="0.3"
+        />
+
+    <LinearLayout
+        android:id="@+id/main_home_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <TextView
+            android:id="@+id/tv_uname_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:background="#4D5E35B1"
+            android:fontFamily="sans-serif-medium"
+            android:text="uname"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_create_group_home"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/crtGroup"
+            android:onClick="crtGroupFunction"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_add_to_group"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/addToGroup"
+            android:onClick="addToGroupFn"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_view_group_home"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/viewGroups"
+            android:onClick="viewGroupFunction"
+            />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:onClick="logoutFunction"
+        android:layout_alignRight="@id/main_home_ll"
+        />
+
+
+
+
+</RelativeLayout>

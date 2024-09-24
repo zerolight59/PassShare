@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PassShare</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_login">Please log in with information</string>
+    <string name="please_reg">Please Register with information</string>
+    <string name="userName">User Name</string>
+    <string name="userPassword">Password</string>
+    <string name="userPasswordRe">Retype Password</string>
+    <string name="login">Log in</string>
+    <string name="register">Register</string>
+    <string name="dontHaveAcc">Don\'t Have an account</string>
+    <string name="HaveAcc">Already Have an account</string>
+    <string name="logout">Log out</string>
+    <string name="crtGroup">Create A Group</string>
+    <string name="addToGroup">Add to Group</string>
+    <string name="viewGroups">View Groups</string>
+    <string name="groupName">Group Name</string>
+
+</resources>
